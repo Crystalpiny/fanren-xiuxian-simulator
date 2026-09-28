@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" width="1100" role="img">
+<title>境界、寿元与神识范围阶梯</title>
+<desc>人界、灵界、仙界三界各境界的寿元对数刻度与神识范围对照。</desc>
+<style>
+text{font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif}
+.t{font-size:15px;font-weight:500;fill:#2C2C2A}
+.s{font-size:12px;fill:#5F5E5A}
+.n{font-size:13px;fill:#2C2C2A}
+.v{font-size:12px;fill:#FFFFFF}
+.g{font-size:13px;font-weight:500;fill:#2C2C2A}
+</style>
+<text class="t" x="30" y="32">境界 · 寿元 · 神识</text>
+<text class="s" x="30" y="52">寿元为对数刻度，每格十倍；神识取开阔地口径</text>
+
+<text class="s" x="30" y="82">寿元（年）</text>
+<line x1="150" y1="86" x2="150" y2="86" stroke="#D3D1C7"/>
+<g class="s" font-size="11" fill="#888780">
+<text x="150" y="82" text-anchor="middle">100</text>
+<text x="290" y="82" text-anchor="middle">1千</text>
+<text x="430" y="82" text-anchor="middle">1万</text>
+<text x="570" y="82" text-anchor="middle">10万</text>
+<text x="710" y="82" text-anchor="middle">100万</text>
+<text x="850" y="82" text-anchor="middle">1000万</text>
+<text x="990" y="82" text-anchor="middle">1亿</text>
+</g>
+<line x1="150" y1="90" x2="150" y2="596" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="290" y1="90" x2="290" y2="596" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="430" y1="90" x2="430" y2="596" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="570" y1="90" x2="570" y2="596" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="710" y1="90" x2="710" y2="596" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="850" y1="90" x2="850" y2="596" stroke="#D3D1C7" stroke-width="0.5"/>
+
+<rect x="30" y="100" width="112" height="20" rx="4" fill="#E6F1FB"/>
+<text class="g" x="86" y="114" text-anchor="middle" fill="#0C447C" font-size="12">人界</text>
+<rect x="150" y="124" width="140" height="26" rx="4" fill="#85B7EB"/><text class="n" x="34" y="141">炼气</text>
+<text class="v" x="220" y="141" text-anchor="middle">约百年</text><text class="s" x="300" y="141">神识 3~30 丈</text>
+<rect x="150" y="156" width="176" height="26" rx="4" fill="#378ADD"/><text class="n" x="34" y="173">筑基</text>
+<text class="v" x="238" y="173" text-anchor="middle">200~250</text><text class="s" x="336" y="173">神识 数百丈</text>
+<rect x="150" y="188" width="212" height="26" rx="4" fill="#185FA5"/><text class="n" x="34" y="205">结丹</text>
+<text class="v" x="256" y="205" text-anchor="middle">500</text><text class="s" x="372" y="205">神识 里许至数里</text>
+<rect x="150" y="220" width="248" height="26" rx="4" fill="#0C447C"/><text class="n" x="34" y="237">元婴</text>
+<text class="v" x="274" y="237" text-anchor="middle">1000</text><text class="s" x="408" y="237">神识 数百里</text>
+<rect x="150" y="252" width="284" height="26" rx="4" fill="#042C53"/><text class="n" x="34" y="269">化神</text>
+<text class="v" x="292" y="269" text-anchor="middle">2000 余</text><text class="s" x="444" y="269">神识 千里以上 · 人界上限</text>
+
+<rect x="30" y="296" width="112" height="20" rx="4" fill="#E1F5EE"/>
+<text class="g" x="86" y="310" text-anchor="middle" fill="#085041" font-size="12">灵界</text>
+<rect x="150" y="320" width="320" height="26" rx="4" fill="#9FE1CB"/><text class="n" x="34" y="337">化神</text>
+<text class="v" x="310" y="337" text-anchor="middle">约 3000</text><text class="s" x="480" y="337">每三百年一次小天劫</text>
+<rect x="150" y="352" width="392" height="26" rx="4" fill="#5DCAA5"/><text class="n" x="34" y="369">炼虚</text>
+<text class="v" x="346" y="369" text-anchor="middle">理论无穷 · 常人约万岁</text><text class="s" x="552" y="369">三千年一次大天劫</text>
+<rect x="150" y="384" width="464" height="26" rx="4" fill="#1D9E75"/><text class="n" x="34" y="401">合体</text>
+<text class="v" x="382" y="401" text-anchor="middle">以万年计</text><text class="s" x="624" y="401">开始借用天地法则</text>
+<rect x="150" y="416" width="620" height="26" rx="4" fill="#0F6E56"/><text class="n" x="34" y="433">大乘</text>
+<text class="v" x="460" y="433" text-anchor="middle">十万年以上 · 渡飞升之劫</text><text class="s" x="780" y="433">初步使用法则之力</text>
+
+<rect x="30" y="460" width="112" height="20" rx="4" fill="#FAEEDA"/>
+<text class="g" x="86" y="474" text-anchor="middle" fill="#633806" font-size="12">仙界</text>
+<rect x="150" y="484" width="840" height="26" rx="4" fill="#EF9F27"/><text class="n" x="34" y="501">真仙</text>
+<text class="v" x="570" y="501" text-anchor="middle">与天地同寿</text>
+<rect x="248" y="516" width="742" height="26" rx="4" fill="#BA7517"/><text class="n" x="150" y="533">金仙</text>
+<text class="v" x="619" y="533" text-anchor="middle">真仙 → 金仙 → 太乙 → 大罗 → 道祖</text>
+<rect x="346" y="548" width="644" height="26" rx="4" fill="#854F0B"/><text class="n" x="248" y="565">太乙</text>
+<text class="v" x="668" y="565" text-anchor="middle">仙界另有天劫体系</text>
+<text class="s" x="30" y="596">飞升是事件不是境界：人界止于化神初期巅峰，渡劫飞升另立新档，数值整体替换而非叠加</text>
+</svg>

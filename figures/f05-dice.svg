@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 320" width="1100" role="img">
+<title>骰子严格度三档</title>
+<desc>宽、正常、严苛三档骰子的大成功与大失败区间对照。</desc>
+<style>
+text{font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif}
+.t{font-size:15px;font-weight:500;fill:#2C2C2A}
+.s{font-size:12px;fill:#5F5E5A}
+.n{font-size:13px;fill:#2C2C2A}
+.v{font-size:11px;fill:#FFFFFF}
+</style>
+<text class="t" x="30" y="32">骰子严格度三档</text>
+<text class="s" x="30" y="52">开局选定，不得更改。一次判定不重投，结果立即锁定</text>
+
+<g font-size="10" fill="#888780">
+<text x="150" y="88" text-anchor="middle">1</text>
+<text x="330" y="88" text-anchor="middle">20</text>
+<text x="510" y="88" text-anchor="middle">40</text>
+<text x="690" y="88" text-anchor="middle">60</text>
+<text x="870" y="88" text-anchor="middle">80</text>
+<text x="1050" y="88" text-anchor="middle">100</text>
+</g>
+
+<text class="n" x="130" y="130" text-anchor="end">宽</text>
+<rect x="150" y="112" width="900" height="26" rx="4" fill="#F1EFE8"/>
+<rect x="159" y="112" width="63" height="26" fill="#639922"/>
+<rect x="1005" y="112" width="45" height="26" fill="#E24B4A"/>
+<text class="v" x="190" y="125" text-anchor="middle">大成功 1~8</text>
+<text class="v" x="1027" y="125" text-anchor="middle" font-size="10">95~100</text>
+
+<text class="n" x="130" y="196" text-anchor="end">正常</text>
+<rect x="150" y="178" width="900" height="26" rx="4" fill="#F1EFE8"/>
+<rect x="159" y="178" width="36" height="26" fill="#639922"/>
+<rect x="1014" y="178" width="36" height="26" fill="#E24B4A"/>
+<text class="v" x="177" y="191" text-anchor="middle" font-size="10">1~5</text>
+<text class="v" x="1032" y="191" text-anchor="middle" font-size="10">96~100</text>
+
+<text class="n" x="130" y="262" text-anchor="end">严苛</text>
+<rect x="150" y="244" width="900" height="26" rx="4" fill="#F1EFE8"/>
+<rect x="159" y="244" width="18" height="26" fill="#639922"/>
+<rect x="996" y="244" width="54" height="26" fill="#E24B4A"/>
+<text class="v" x="168" y="257" text-anchor="middle" font-size="9">1~3</text>
+<text class="v" x="1023" y="257" text-anchor="middle" font-size="10">94~100</text>
+
+<rect x="150" y="286" width="10" height="10" rx="2" fill="#639922"/><text class="s" x="166" y="295">大成功区</text>
+<rect x="250" y="286" width="10" height="10" rx="2" fill="#E24B4A"/><text class="s" x="266" y="295">大失败区</text>
+<rect x="350" y="286" width="10" height="10" rx="2" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/><text class="s" x="366" y="295">普通结果</text>
+<text class="s" x="470" y="295">未选骰档时按正常档</text>
+<text class="s" x="150" y="316">凡俗与地狱档固定配严苛骰；散修与天骄配正常骰。难度只改灵根权重与初始资源，骰档单独选</text>
+</svg>

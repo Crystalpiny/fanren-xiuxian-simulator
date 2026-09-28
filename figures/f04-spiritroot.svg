@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 400" width="1100" role="img">
+<title>四档难度灵根抽取概率</title>
+<desc>散修、凡俗、天骄、地狱四档难度各自掷D100决定灵根，横条显示六种灵根的概率占比。</desc>
+<style>
+text{font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif}
+.t{font-size:15px;font-weight:500;fill:#2C2C2A}
+.s{font-size:12px;fill:#5F5E5A}
+.n{font-size:13px;fill:#2C2C2A}
+.v{font-size:12px;fill:#FFFFFF}
+</style>
+<text class="t" x="30" y="32">灵根抽取概率 · 四档难度</text>
+<text class="s" x="30" y="52">每档各掷一次 D100，色带宽度即概率。灵根不可自选、不可重抽、不可篡改</text>
+
+<g font-size="11" fill="#5F5E5A">
+<text x="30" y="96">散修</text><text x="30" y="112" font-size="10" fill="#888780">标准体验</text>
+<rect x="130" y="82" width="880" height="28" rx="4" fill="#F1EFE8"/>
+<rect x="130" y="82" width="8.8" height="28" fill="#BA7517"/>
+<rect x="138.8" y="82" width="44" height="28" fill="#D4537E"/>
+<rect x="182.8" y="82" width="220" height="28" fill="#7F77DD"/>
+<rect x="402.8" y="82" width="308" height="28" fill="#378ADD"/>
+<rect x="710.8" y="82" width="237.6" height="28" fill="#639922"/>
+<rect x="948.4" y="82" width="61.6" height="28" fill="#888780"/>
+<text class="v" x="162" y="96" text-anchor="middle">4%</text>
+<text class="v" x="293" y="96" text-anchor="middle">25%</text>
+<text class="v" x="557" y="96" text-anchor="middle">35%</text>
+<text class="v" x="830" y="96" text-anchor="middle">27%</text>
+<text class="v" x="979" y="96" text-anchor="middle">8%</text>
+
+<text x="30" y="166">凡俗</text><text x="30" y="182" font-size="10" fill="#888780">原作级别的苦</text>
+<rect x="130" y="152" width="880" height="28" rx="4" fill="#F1EFE8"/>
+<rect x="130" y="152" width="8.8" height="28" fill="#BA7517"/>
+<rect x="138.8" y="152" width="17.6" height="28" fill="#D4537E"/>
+<rect x="156.4" y="152" width="61.6" height="28" fill="#7F77DD"/>
+<rect x="218" y="152" width="176" height="28" fill="#378ADD"/>
+<rect x="394" y="152" width="352" height="28" fill="#639922"/>
+<rect x="746" y="152" width="264" height="28" fill="#888780"/>
+<text class="v" x="187" y="166" text-anchor="middle">7%</text>
+<text class="v" x="306" y="166" text-anchor="middle">20%</text>
+<text class="v" x="570" y="166" text-anchor="middle">40%</text>
+<text class="v" x="878" y="166" text-anchor="middle">30%</text>
+
+<text x="30" y="236">天骄</text><text x="30" y="252" font-size="10" fill="#888780">顺风，更易被盯上</text>
+<rect x="130" y="222" width="880" height="28" rx="4" fill="#F1EFE8"/>
+<rect x="130" y="222" width="17.6" height="28" fill="#BA7517"/>
+<rect x="147.6" y="222" width="114.4" height="28" fill="#D4537E"/>
+<rect x="262" y="222" width="352" height="28" fill="#7F77DD"/>
+<rect x="614" y="222" width="264" height="28" fill="#378ADD"/>
+<rect x="878" y="222" width="105.6" height="28" fill="#639922"/>
+<rect x="983.6" y="222" width="26.4" height="28" fill="#888780"/>
+<text class="v" x="139" y="236" text-anchor="middle" font-size="11">2%</text>
+<text class="v" x="205" y="236" text-anchor="middle">13%</text>
+<text class="v" x="438" y="236" text-anchor="middle">40%</text>
+<text class="v" x="746" y="236" text-anchor="middle">30%</text>
+<text class="v" x="931" y="236" text-anchor="middle">12%</text>
+
+<text x="30" y="306">地狱</text><text x="30" y="322" font-size="10" fill="#888780">自我折磨用</text>
+<rect x="130" y="292" width="880" height="28" rx="4" fill="#F1EFE8"/>
+<rect x="130" y="292" width="8.8" height="28" fill="#BA7517"/>
+<rect x="138.8" y="292" width="8.8" height="28" fill="#D4537E"/>
+<rect x="147.6" y="292" width="26.4" height="28" fill="#7F77DD"/>
+<rect x="174" y="292" width="88" height="28" fill="#378ADD"/>
+<rect x="262" y="292" width="220" height="28" fill="#639922"/>
+<rect x="482" y="292" width="528" height="28" fill="#888780"/>
+<text class="v" x="218" y="306" text-anchor="middle">10%</text>
+<text class="v" x="372" y="306" text-anchor="middle">25%</text>
+<text class="v" x="746" y="306" text-anchor="middle">60%</text>
+</g>
+
+<rect x="130" y="342" width="12" height="12" rx="2" fill="#BA7517"/><text class="s" x="148" y="352">天灵根 +50%</text>
+<rect x="248" y="342" width="12" height="12" rx="2" fill="#D4537E"/><text class="s" x="266" y="352">异灵根 +30%</text>
+<rect x="366" y="342" width="12" height="12" rx="2" fill="#7F77DD"/><text class="s" x="384" y="352">双灵根 +20%</text>
+<rect x="484" y="342" width="12" height="12" rx="2" fill="#378ADD"/><text class="s" x="502" y="352">三灵根 基准</text>
+<rect x="602" y="342" width="12" height="12" rx="2" fill="#639922"/><text class="s" x="620" y="352">四灵根 −20%</text>
+<rect x="720" y="342" width="12" height="12" rx="2" fill="#888780"/><text class="s" x="738" y="352">五灵根 −40%</text>
+<text class="s" x="850" y="352">特殊体质另掷，1% 触发</text>
+<text class="s" x="130" y="378">难度只改权重与初始资源，不锁死灵根——地狱档理论上仍可掷出天灵根（1%）</text>
+</svg>

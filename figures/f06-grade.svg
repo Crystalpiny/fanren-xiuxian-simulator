@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 430" width="1100" role="img">
+<title>品阶两套词汇与丹道五档</title>
+<desc>器物丹药品阶与功法阶等两套词汇对照，以及炼丹技艺熟练度五档标尺。</desc>
+<style>
+text{font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif}
+.t{font-size:15px;font-weight:500;fill:#2C2C2A}
+.s{font-size:12px;fill:#5F5E5A}
+.n{font-size:13px;fill:#2C2C2A}
+.v{font-size:12px;fill:#FFFFFF}
+</style>
+<text class="t" x="30" y="32">品阶两套词汇 · 丹道五档</text>
+<text class="s" x="30" y="52">两套词汇不得混用：器物丹药论「品阶」，功法成就论「阶＋等」</text>
+
+<text class="n" x="30" y="86">器物 · 丹药 · 符箓</text>
+<rect x="220" y="70" width="90" height="26" rx="4" fill="#D3D1C7"/><text class="v" x="265" y="83" text-anchor="middle" fill="#2C2C2A">下品</text>
+<rect x="318" y="70" width="90" height="26" rx="4" fill="#B4B2A9"/><text class="v" x="363" y="83" text-anchor="middle" fill="#2C2C2A">中品</text>
+<rect x="416" y="70" width="90" height="26" rx="4" fill="#888780"/><text class="v" x="461" y="83" text-anchor="middle">上品</text>
+<rect x="514" y="70" width="90" height="26" rx="4" fill="#5F5E5A"/><text class="v" x="559" y="83" text-anchor="middle">极品</text>
+<text class="s" x="622" y="87">法器 · 符宝 · 真宝 · 法宝 · 丹药 · 符箓</text>
+
+<text class="n" x="30" y="130">功法 · 成就</text>
+<rect x="220" y="114" width="72" height="26" rx="4" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/><text class="v" x="256" y="127" text-anchor="middle" fill="#2C2C2A">凡品</text>
+<rect x="300" y="114" width="60" height="26" rx="4" fill="#EF9F27"/><text class="v" x="330" y="127" text-anchor="middle" font-size="11">黄</text>
+<rect x="368" y="114" width="60" height="26" rx="4" fill="#D85A30"/><text class="v" x="398" y="127" text-anchor="middle" font-size="11">玄</text>
+<rect x="436" y="114" width="60" height="26" rx="4" fill="#7F77DD"/><text class="v" x="466" y="127" text-anchor="middle" font-size="11">地</text>
+<rect x="504" y="114" width="60" height="26" rx="4" fill="#378ADD"/><text class="v" x="534" y="127" text-anchor="middle" font-size="11">天</text>
+<rect x="572" y="114" width="60" height="26" rx="4" fill="#534AB7"/><text class="v" x="602" y="127" text-anchor="middle" font-size="11">仙</text>
+<text class="s" x="648" y="127">四阶各分下／中／上／极品四等，凡品不分等</text>
+<text class="s" x="220" y="158">悟性门槛：黄 3　玄 5　地 7　天 9　仙 12 —— 门槛是下限，真正的闸门是境界</text>
+
+<line x1="30" y1="182" x2="1070" y2="182" stroke="#D3D1C7" stroke-width="0.5"/>
+
+<text class="n" x="30" y="212">炼丹技艺熟练度</text>
+<text class="s" x="30" y="230">成功一次 +1；熟练度只加成功率，不减材料、不防炸炉，失败不长手艺</text>
+
+<rect x="150" y="248" width="880" height="34" rx="4" fill="#F1EFE8"/>
+<g font-size="10" fill="#888780">
+<text x="150" y="294" text-anchor="middle">0</text>
+<text x="238" y="294" text-anchor="middle">10</text>
+<text x="370" y="294" text-anchor="middle">25</text>
+<text x="590" y="294" text-anchor="middle">50</text>
+<text x="854" y="294" text-anchor="middle">80</text>
+<text x="1030" y="294" text-anchor="middle">100</text>
+</g>
+<rect x="150" y="248" width="88" height="34" fill="#D3D1C7"/>
+<rect x="238" y="248" width="132" height="34" fill="#97C459"/>
+<rect x="370" y="248" width="220" height="34" fill="#639922"/>
+<rect x="590" y="248" width="264" height="34" fill="#3B6D11"/>
+<rect x="854" y="248" width="176" height="34" fill="#27500A"/>
+<text class="v" x="194" y="265" text-anchor="middle" fill="#2C2C2A">学徒</text>
+<text class="v" x="304" y="265" text-anchor="middle">徒</text>
+<text class="v" x="480" y="265" text-anchor="middle">师</text>
+<text class="v" x="722" y="265" text-anchor="middle">大师</text>
+<text class="v" x="942" y="265" text-anchor="middle">宗师</text>
+<text class="s" x="194" y="281" text-anchor="middle" font-size="10">下品</text>
+<text class="s" x="304" y="281" text-anchor="middle" font-size="10">中品</text>
+<text class="s" x="480" y="281" text-anchor="middle" font-size="10">上品</text>
+<text class="s" x="722" y="281" text-anchor="middle" font-size="10">极品</text>
+<text class="s" x="942" y="281" text-anchor="middle" font-size="10">极品·可越阶</text>
+
+<rect x="150" y="312" width="880" height="30" rx="4" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<text class="n" x="590" y="327" text-anchor="middle" fill="#633806">人界传说 · 丹王：炼成高己两档之丹而不失手者</text>
+
+<text class="s" x="150" y="372">炼丹成功率 ＝ 悟性×3% ＋ 技艺加成 ＋ 炉火 0~15% ＋ 材料修正 − 丹方难度，封顶 80%、下限 5%</text>
+<text class="s" x="150" y="392">成丹后定品阶：1~50 下品　51~80 中品　81~95 上品　96~100 极品　越阶强炼额外 −25%，炸炉翻倍</text>
+<text class="s" x="150" y="412">炼器成功率 ＝ 悟性×2% ＋ 技艺加成 ＋ 炉火 0~15% ＋ 属性契合 − 器物难度</text>
+</svg>

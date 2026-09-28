@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 430" width="1100" role="img">
+<title>四冲结丹修为曲线</title>
+<desc>南宫仆射在4495至4496年间四次冲击结丹的修为变化锯齿曲线。</desc>
+<style>
+text{font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif}
+.t{font-size:15px;font-weight:500;fill:#2C2C2A}
+.s{font-size:12px;fill:#5F5E5A}
+.n{font-size:13px;fill:#2C2C2A}
+</style>
+<text class="t" x="30" y="32">四冲结丹 · 修为锯齿</text>
+<text class="s" x="30" y="52">档一 TZ-0143 至 TZ-0157：三次满修、三次溃散，第四次才成丹</text>
+
+<g font-size="10" fill="#888780">
+<text x="100" y="100" text-anchor="end">100</text>
+<text x="100" y="184" text-anchor="end">70</text>
+<text x="100" y="240" text-anchor="end">50</text>
+<text x="100" y="380" text-anchor="end">0</text>
+</g>
+<line x1="112" y1="100" x2="1050" y2="100" stroke="#D3D1C7" stroke-width="0.5" stroke-dasharray="4 3"/>
+<line x1="112" y1="184" x2="1050" y2="184" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="112" y1="240" x2="1050" y2="240" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="112" y1="380" x2="1050" y2="380" stroke="#B4B2A9" stroke-width="0.5"/>
+<text class="s" x="112" y="94" font-size="10" fill="#888780">筑基大圆满 · 修为上限</text>
+
+<polyline points="150,100 375,212 656,100 712,240 740,128 796,100 881,184 993,100 1021,100"
+  fill="none" stroke="#534AB7" stroke-width="2" stroke-linejoin="round"/>
+
+<circle cx="150" cy="100" r="5" fill="#534AB7"/>
+<circle cx="375" cy="212" r="5" fill="#E24B4A"/>
+<circle cx="656" cy="100" r="5" fill="#534AB7"/>
+<circle cx="712" cy="240" r="5" fill="#E24B4A"/>
+<circle cx="740" cy="128" r="4" fill="#534AB7"/>
+<circle cx="796" cy="100" r="5" fill="#534AB7"/>
+<circle cx="881" cy="184" r="5" fill="#E24B4A"/>
+<circle cx="993" cy="100" r="5" fill="#534AB7"/>
+<circle cx="1021" cy="100" r="7" fill="#1D9E75"/>
+
+<text class="s" x="375" y="238" text-anchor="middle" font-size="10" fill="#A32D2D">一冲 67＞58 败</text>
+<text class="s" x="375" y="252" text-anchor="middle" font-size="10" fill="#A32D2D">跌至 60 · 大伤</text>
+<text class="s" x="712" y="266" text-anchor="middle" font-size="10" fill="#A32D2D">二冲 85＞63 败</text>
+<text class="s" x="712" y="280" text-anchor="middle" font-size="10" fill="#A32D2D">跌至 50 · 大伤</text>
+<text class="s" x="881" y="210" text-anchor="middle" font-size="10" fill="#A32D2D">三冲 68＞63 败</text>
+<text class="s" x="881" y="224" text-anchor="middle" font-size="10" fill="#A32D2D">跌至 70 · 中伤</text>
+<text class="s" x="1021" y="82" text-anchor="middle" font-size="10" fill="#0F6E56">四冲 40≤78 成</text>
+<text class="s" x="1021" y="68" text-anchor="middle" font-size="10" fill="#0F6E56">太阴丹成</text>
+
+<g font-size="10" fill="#888780">
+<text x="150" y="398" text-anchor="middle">4494 秋</text>
+<text x="375" y="398" text-anchor="middle">4495 正月</text>
+<text x="656" y="398" text-anchor="middle">4495 七月</text>
+<text x="740" y="398" text-anchor="middle">4495 九月</text>
+<text x="881" y="398" text-anchor="middle">4495 腊月</text>
+<text x="1021" y="398" text-anchor="middle">4496 三月</text>
+</g>
+
+<line x1="112" y1="316" x2="1050" y2="316" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="s" x="112" y="336">三次溃散各有各的因：一冲月华一暗；二冲无字石门再现，并触发系统隐藏条款「试炼」；三冲她自己心生迟疑</text>
+<text class="s" x="112" y="356">第四次先于镜中「补答」——心隙满了才去冲关，成功率从 58 抬到 78</text>
+</svg>

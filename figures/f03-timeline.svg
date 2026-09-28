@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 330" width="1100" role="img">
+<title>开局时代时间轴</title>
+<desc>七个开局时代在天南历4420至4680年间的分布，以及韩立年表关键锚点。</desc>
+<style>
+text{font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif}
+.t{font-size:15px;font-weight:500;fill:#2C2C2A}
+.s{font-size:12px;fill:#5F5E5A}
+.n{font-size:13px;fill:#2C2C2A}
+.w{font-size:11px;fill:#FFFFFF}
+</style>
+<text class="t" x="30" y="32">开局时代时间轴</text>
+<text class="s" x="30" y="52">开局年由两次 D100 决定：第一次定时代，第二次定年份。无默认年份</text>
+
+<g font-size="10" fill="#888780">
+<text x="150" y="96" text-anchor="middle">4420</text>
+<text x="250" y="96" text-anchor="middle">4450</text>
+<text x="423" y="96" text-anchor="middle">4500</text>
+<text x="496" y="96" text-anchor="middle">4521</text>
+<text x="527" y="96" text-anchor="middle">4530</text>
+<text x="828" y="96" text-anchor="middle">4617</text>
+<text x="942" y="96" text-anchor="middle">4650</text>
+<text x="1049" y="96" text-anchor="middle">4680</text>
+</g>
+
+<rect x="150" y="104" width="100" height="46" rx="4" fill="#85B7EB"/>
+<text class="w" x="200" y="120" text-anchor="middle">七派鼎盛</text><text class="w" x="200" y="136" text-anchor="middle">D100 01~30</text>
+<rect x="250" y="104" width="173" height="46" rx="4" fill="#5DCAA5"/>
+<text class="w" x="336" y="120" text-anchor="middle">战前暗流</text><text class="w" x="336" y="136" text-anchor="middle">31~48</text>
+<rect x="423" y="104" width="73" height="46" rx="4" fill="#E24B4A"/>
+<text class="w" x="459" y="120" text-anchor="middle">正魔大战</text><text class="w" x="459" y="136" text-anchor="middle">49~63</text>
+<rect x="496" y="104" width="31" height="46" rx="4" fill="#BA7517"/>
+<text class="w" x="511" y="127" text-anchor="middle" font-size="10">海内星散</text>
+<rect x="527" y="104" width="301" height="46" rx="4" fill="#378ADD"/>
+<text class="w" x="677" y="120" text-anchor="middle">海上风云</text><text class="w" x="677" y="136" text-anchor="middle">77~90 · 虚天殿约 4530</text>
+<rect x="828" y="104" width="114" height="46" rx="4" fill="#7F77DD"/>
+<text class="w" x="885" y="120" text-anchor="middle">元婴争锋</text><text class="w" x="885" y="136" text-anchor="middle">91~96 · 昆吾山约 4630</text>
+<rect x="942" y="104" width="107" height="46" rx="4" fill="#D85A30"/>
+<text class="w" x="995" y="120" text-anchor="middle">天南大战</text><text class="w" x="995" y="136" text-anchor="middle">97~100 · 慕兰入侵</text>
+
+<line x1="150" y1="160" x2="150" y2="178" stroke="#888780" stroke-width="0.5"/>
+<text class="s" x="150" y="192" text-anchor="middle" font-size="10">韩立生</text>
+<text class="s" x="150" y="206" text-anchor="middle" font-size="10">4400</text>
+
+<line x1="167" y1="160" x2="167" y2="178" stroke="#185FA5" stroke-width="1"/>
+<text class="s" x="167" y="192" text-anchor="middle" font-size="10" fill="#185FA5">韩立筑基</text>
+<text class="s" x="167" y="206" text-anchor="middle" font-size="10" fill="#185FA5">4425 · 25 岁</text>
+
+<line x1="513" y1="160" x2="513" y2="178" stroke="#185FA5" stroke-width="1"/>
+<text class="s" x="513" y="192" text-anchor="middle" font-size="10" fill="#185FA5">韩立结丹</text>
+<text class="s" x="513" y="206" text-anchor="middle" font-size="10" fill="#185FA5">4526 · 126 岁</text>
+
+<line x1="828" y1="160" x2="828" y2="178" stroke="#185FA5" stroke-width="1"/>
+<text class="s" x="828" y="192" text-anchor="middle" font-size="10" fill="#185FA5">韩立元婴</text>
+<text class="s" x="828" y="206" text-anchor="middle" font-size="10" fill="#185FA5">4617 · 217 岁</text>
+
+<line x1="873" y1="160" x2="873" y2="178" stroke="#185FA5" stroke-width="1" stroke-dasharray="3 2"/>
+<text class="s" x="873" y="192" text-anchor="middle" font-size="10" fill="#185FA5">昆吾山</text>
+<text class="s" x="873" y="206" text-anchor="middle" font-size="10" fill="#185FA5">约 4630</text>
+
+<line x1="336" y1="224" x2="336" y2="242" stroke="#993556" stroke-width="1"/>
+<text class="s" x="336" y="256" text-anchor="middle" font-size="10" fill="#993556">档一开局</text>
+<text class="s" x="336" y="270" text-anchor="middle" font-size="10" fill="#993556">4475 · 南宫仆射 8 岁</text>
+
+<line x1="150" y1="290" x2="1049" y2="290" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="s" x="150" y="310">开局年晚于某固定大事件时，该事件改为已发生的历史；开局须写出物证、传闻、后果，玩家不能回头参加</text>
+</svg>

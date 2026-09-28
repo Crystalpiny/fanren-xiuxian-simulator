@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 400" width="1100" role="img">
+<title>各境界年开销阶梯</title>
+<desc>炼气至化神各境界的年维持开销，横轴为对数刻度，单位折算为下品灵石。</desc>
+<style>
+text{font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif}
+.t{font-size:15px;font-weight:500;fill:#2C2C2A}
+.s{font-size:12px;fill:#5F5E5A}
+.n{font-size:13px;fill:#2C2C2A}
+.v{font-size:11px;fill:#FFFFFF}
+</style>
+<text class="t" x="30" y="32">年开销阶梯</text>
+<text class="s" x="30" y="52">年开销 ＝ 境界基数 × 0.3，只算维持修行必需的开销；买法器与丹药属额外支出</text>
+
+<g font-size="10" fill="#888780">
+<text x="150" y="82" text-anchor="middle">10</text>
+<text x="290" y="82" text-anchor="middle">100</text>
+<text x="430" y="82" text-anchor="middle">1千</text>
+<text x="570" y="82" text-anchor="middle">1万</text>
+<text x="710" y="82" text-anchor="middle">10万</text>
+<text x="850" y="82" text-anchor="middle">100万</text>
+<text x="990" y="82" text-anchor="middle">1000万</text>
+</g>
+<line x1="150" y1="90" x2="150" y2="330" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="290" y1="90" x2="290" y2="330" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="430" y1="90" x2="430" y2="330" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="570" y1="90" x2="570" y2="330" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="710" y1="90" x2="710" y2="330" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="850" y1="90" x2="850" y2="330" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="s" x="150" y="72" font-size="10" fill="#888780">下品灵石（对数刻度）</text>
+
+<text class="n" x="140" y="112" text-anchor="end" font-size="12">炼气 1~2 层</text>
+<rect x="150" y="100" width="0.1" height="20" fill="#85B7EB"/>
+<text class="s" x="158" y="114" font-size="11">12 下品</text>
+
+<text class="n" x="140" y="134" text-anchor="end" font-size="12">炼气 3~4 层</text>
+<rect x="150" y="122" width="26" height="20" fill="#85B7EB"/>
+<text class="s" x="184" y="136" font-size="11">20</text>
+
+<text class="n" x="140" y="156" text-anchor="end" font-size="12">炼气 5~6 层</text>
+<rect x="150" y="144" width="51" height="20" fill="#85B7EB"/>
+<text class="s" x="209" y="158" font-size="11">32</text>
+
+<text class="n" x="140" y="178" text-anchor="end" font-size="12">炼气 7~8 层</text>
+<rect x="150" y="166" width="74" height="20" fill="#85B7EB"/>
+<text class="s" x="232" y="180" font-size="11">50</text>
+
+<text class="n" x="140" y="200" text-anchor="end" font-size="12">炼气 9~10 层</text>
+<rect x="150" y="188" width="95" height="20" fill="#85B7EB"/>
+<text class="s" x="253" y="202" font-size="11">75</text>
+
+<text class="n" x="140" y="222" text-anchor="end" font-size="12">炼气 11~13 层</text>
+<rect x="150" y="210" width="119" height="20" fill="#378ADD"/>
+<text class="s" x="277" y="224" font-size="11">120</text>
+
+<text class="n" x="140" y="250" text-anchor="end">筑基</text>
+<rect x="150" y="238" width="223" height="22" fill="#185FA5"/>
+<text class="v" x="261" y="249" text-anchor="middle">900 下品</text>
+
+<text class="n" x="140" y="282" text-anchor="end">结丹</text>
+<rect x="150" y="270" width="343" height="22" fill="#0C447C"/>
+<text class="v" x="321" y="281" text-anchor="middle">9000 下品</text>
+
+<text class="n" x="140" y="314" text-anchor="end">元婴</text>
+<rect x="150" y="302" width="581" height="22" fill="#042C53"/>
+<text class="v" x="440" y="313" text-anchor="middle">9000 中品 ＝ 90 万下品</text>
+
+<text class="n" x="140" y="346" text-anchor="end">化神</text>
+<rect x="150" y="334" width="700" height="22" fill="#26215C"/>
+<text class="v" x="500" y="345" text-anchor="middle">9 万中品 ＝ 900 万下品</text>
+
+<line x1="150" y1="368" x2="850" y2="368" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="s" x="150" y="388">年收入 ＝ 基数 × 较高系数（灵根与境遇取高、不相乘），落在开销的 0.5 至 5 倍。算出低于 7 下品则抬到 7 下品</text>
+</svg>

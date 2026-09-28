@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 340" width="1100" role="img">
+<title>结丹年龄对决：档一角色与韩立</title>
+<desc>南宫仆射与韩立在原作基准下的筑基与结丹年龄对比，横轴为零到一百三十岁。</desc>
+<style>
+text{font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif}
+.t{font-size:15px;font-weight:500;fill:#2C2C2A}
+.s{font-size:12px;fill:#5F5E5A}
+.n{font-size:13px;fill:#2C2C2A}
+</style>
+<text class="t" x="30" y="32">结丹年龄对决 · 档一 vs 原作基准</text>
+<text class="s" x="30" y="52">同样是人界、同样是双灵根级别的天赋，系统（灵田洞天）把结丹年龄压到了原作主角的约五分之一</text>
+
+<g font-size="10" fill="#888780">
+<text x="150" y="92" text-anchor="middle">0 岁</text>
+<text x="340" y="92" text-anchor="middle">25</text>
+<text x="530" y="92" text-anchor="middle">50</text>
+<text x="720" y="92" text-anchor="middle">75</text>
+<text x="910" y="92" text-anchor="middle">100</text>
+<text x="1050" y="92" text-anchor="middle">130</text>
+</g>
+<line x1="150" y1="100" x2="150" y2="252" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="340" y1="100" x2="340" y2="252" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="530" y1="100" x2="530" y2="252" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="720" y1="100" x2="720" y2="252" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="910" y1="100" x2="910" y2="252" stroke="#D3D1C7" stroke-width="0.5"/>
+
+<text class="n" x="140" y="140" text-anchor="end">南宫仆射</text>
+<text class="s" x="140" y="156" text-anchor="end" font-size="10" fill="#888780">档一 · 双灵根</text>
+<rect x="150" y="122" width="176" height="30" rx="4" fill="#FBEAF0" stroke="#D4537E" stroke-width="0.5"/>
+<circle cx="309" cy="137" r="6" fill="#D4537E"/>
+<circle cx="337" cy="137" r="7" fill="#993556"/>
+<text class="s" x="316" y="172" font-size="10" fill="#993556" text-anchor="middle">筑基 23</text>
+<text class="s" x="337" y="188" font-size="10" fill="#993556" text-anchor="middle">结丹 27</text>
+
+<text class="n" x="140" y="224" text-anchor="end">韩立</text>
+<text class="s" x="140" y="240" text-anchor="end" font-size="10" fill="#888780">原作基准</text>
+<rect x="150" y="206" width="872" height="30" rx="4" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<circle cx="323" cy="221" r="6" fill="#BA7517"/>
+<circle cx="1022" cy="221" r="7" fill="#854F0B"/>
+<text class="s" x="323" y="256" font-size="10" fill="#854F0B" text-anchor="middle">筑基 25</text>
+<text class="s" x="1022" y="256" font-size="10" fill="#854F0B" text-anchor="middle">结丹 126</text>
+
+<line x1="337" y1="146" x2="337" y2="200" stroke="#993556" stroke-width="0.5" stroke-dasharray="3 2"/>
+<line x1="1022" y1="230" x2="1022" y2="268" stroke="#854F0B" stroke-width="0.5" stroke-dasharray="3 2"/>
+<rect x="470" y="196" width="240" height="30" rx="4" fill="#FCEBEB" stroke="#A32D2D" stroke-width="0.5"/>
+<text class="n" x="590" y="211" text-anchor="middle" fill="#501313">结丹早了 99 年　约 4.7 倍</text>
+
+<line x1="150" y1="278" x2="1050" y2="278" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="s" x="150" y="298">韩立另有元婴 217 岁、化神约 330 岁以上、飞升约 380~400 岁（推算），已超出本图横轴范围</text>
+<text class="s" x="150" y="318">南宫仆射当前 28 岁（4497 年正月）· 结丹初期 · 寿元 500 · 灵田洞天 Lv3</text>
+</svg>

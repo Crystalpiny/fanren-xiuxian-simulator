@@ -29,6 +29,54 @@ AI 在游戏中担任唯一主持人**【天道】**，同时负责两件事：
 | 三级内容上锁 | 人界 → 灵界 → 仙界逐级解锁，续册带触发器锁，杜绝跨级剧透 |
 | 实战存档 | 附一份 150+ 回合的真实跑团记录（`天道秘录.md`），可作范例与格式参考 |
 
+## 一图速览
+
+> 配图与表格并存；具体数值以文字表格为准，图用来一眼定型。
+
+<details>
+<summary><b>境界 · 寿元 · 神识（三界对数刻度）</b></summary>
+
+![境界、寿元与神识范围阶梯](figures/f01-ladder.svg)
+
+</details>
+
+<details>
+<summary><b>五道关口 · 突破成功率悬崖</b></summary>
+
+![五道关口突破成功率](figures/f02-breakthrough.svg)
+
+</details>
+
+<details>
+<summary><b>开局时代时间轴（4420–4680）</b></summary>
+
+![开局时代时间轴](figures/f03-timeline.svg)
+
+</details>
+
+<details>
+<summary><b>四档难度 · 灵根概率色带</b></summary>
+
+![四档难度灵根概率](figures/f04-spiritroot.svg)
+
+</details>
+
+<details>
+<summary><b>品阶两套词汇 + 丹道五档熟练度</b></summary>
+
+![品阶词汇与丹道熟练度](figures/f06-grade.svg)
+
+</details>
+
+<details>
+<summary><b>各境界年开销阶梯（对数刻度）</b></summary>
+
+![年开销阶梯](figures/f10-economy.svg)
+
+</details>
+
+完整图录见 [`figures/README.md`](figures/README.md)。
+
 ## 文档清单
 
 ```text
@@ -40,6 +88,18 @@ AI 在游戏中担任唯一主持人**【天道】**，同时负责两件事：
 ├── 天道秘录.md                          # 天道专用黑箱档（233 行）——玩家勿读
 ├── 凡人修仙传正文核对.md                  # 原作正文条目核对表（972 行）
 ├── LICENSE                             # MIT
+├── figures/                            # 10 张配图与图录索引（人类阅读用，不进 AI 上下文）
+│   ├── README.md
+│   ├── f01-ladder.svg
+│   ├── f02-breakthrough.svg
+│   ├── f03-timeline.svg
+│   ├── f04-spiritroot.svg
+│   ├── f05-dice.svg
+│   ├── f06-grade.svg
+│   ├── f07-duel.svg
+│   ├── f08-fourattempts.svg
+│   ├── f09-tianji.svg
+│   └── f10-economy.svg
 └── .cursor/skills/shuorenhua            # Cursor Skill：审稿 / 去 AI 味
     ├── SKILL.md
     └── references

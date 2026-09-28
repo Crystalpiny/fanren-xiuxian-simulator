@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 380" width="1100" role="img">
+<title>天机痕迹累积曲线</title>
+<desc>档一角色使用系统导致的天机痕迹数值累积过程，为天道专用黑箱指标。</desc>
+<style>
+text{font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif}
+.t{font-size:15px;font-weight:500;fill:#2C2C2A}
+.s{font-size:12px;fill:#5F5E5A}
+.n{font-size:13px;fill:#2C2C2A}
+</style>
+<text class="t" x="30" y="32">天机痕迹 · 系统代价</text>
+<text class="s" x="30" y="52">黑箱值，玩家不可知。日常功能每月最多 +1，大功能 +3，每年 −3</text>
+
+<g font-size="10" fill="#888780">
+<text x="100" y="100" text-anchor="end">60</text>
+<text x="100" y="123" text-anchor="end">55</text>
+<text x="100" y="193" text-anchor="end">40</text>
+<text x="100" y="235" text-anchor="end">31</text>
+<text x="100" y="380" text-anchor="end">0</text>
+</g>
+<line x1="112" y1="100" x2="1050" y2="100" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="112" y1="123" x2="1050" y2="123" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="112" y1="193" x2="1050" y2="193" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="112" y1="235" x2="1050" y2="235" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="112" y1="380" x2="1050" y2="380" stroke="#B4B2A9" stroke-width="0.5"/>
+
+<line x1="150" y1="380" x2="375" y2="235" stroke="#AFA9EC" stroke-width="2" stroke-dasharray="5 4"/>
+<polyline points="375,235 600,193 825,123 1000,100"
+  fill="none" stroke="#534AB7" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="375" y1="235" x2="600" y2="235" stroke="#534AB7" stroke-width="2.5"/>
+<line x1="600" y1="193" x2="825" y2="193" stroke="#534AB7" stroke-width="2.5"/>
+<line x1="825" y1="123" x2="1000" y2="123" stroke="#534AB7" stroke-width="2.5"/>
+
+<circle cx="150" cy="380" r="5" fill="#AFA9EC"/>
+<circle cx="375" cy="235" r="5" fill="#534AB7"/>
+<circle cx="600" cy="193" r="5" fill="#534AB7"/>
+<circle cx="825" cy="123" r="5" fill="#534AB7"/>
+<circle cx="1000" cy="100" r="6" fill="#26215C"/>
+
+<text class="s" x="150" y="398" text-anchor="middle" font-size="10">4475 开局</text>
+<text class="s" x="375" y="398" text-anchor="middle" font-size="10">4490 正月</text>
+<text class="s" x="600" y="398" text-anchor="middle" font-size="10">4495 正月</text>
+<text class="s" x="825" y="398" text-anchor="middle" font-size="10">4495 八月</text>
+<text class="s" x="1000" y="398" text-anchor="middle" font-size="10">4496 腊月</text>
+
+<text class="n" x="375" y="218" text-anchor="middle" font-size="11" fill="#26215C">31</text>
+<text class="n" x="600" y="176" text-anchor="middle" font-size="11" fill="#26215C">40</text>
+<text class="n" x="825" y="106" text-anchor="middle" font-size="11" fill="#26215C">55</text>
+<text class="n" x="1000" y="84" text-anchor="middle" font-size="11" fill="#26215C">60</text>
+
+<line x1="112" y1="290" x2="1050" y2="290" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="s" x="112" y="310">31 入「微澜」：元婴以上或觉其气机有异　｜　40：结丹夜现无字石门　｜　55：隐藏条款「试炼」触发</text>
+<text class="s" x="112" y="330">60：鹰嘴崖缝底贴近，洞天异亮一瞬——「冷意」封口，力不可开，条件未明</text>
+<text class="s" x="112" y="350">系统来历为「界外之物」，痕迹上涨更快；这是系统收益背后的账单</text>
+</svg>
