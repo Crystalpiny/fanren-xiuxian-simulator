@@ -47,9 +47,9 @@ AI 在游戏中担任唯一主持人**【天道】**，同时负责两件事：
 </details>
 
 <details>
-<summary><b>五道关口 · 突破成功率悬崖</b></summary>
+<summary><b>突破溢出品质制（TZ-0028）——去 95% 封顶</b></summary>
 
-![五道关口突破成功率](figures/f02-breakthrough.svg)
+![突破溢出品质制](figures/f02-breakthrough.svg)
 
 </details>
 
@@ -81,6 +81,27 @@ AI 在游戏中担任唯一主持人**【天道】**，同时负责两件事：
 
 </details>
 
+<details>
+<summary><b>机缘押注（TZ-0028）——三档力度 × 五档机缘</b></summary>
+
+![机缘押注表](figures/f11-luck-bet.svg)
+
+</details>
+
+<details>
+<summary><b>战斗三步定式（TZ-0028）——档位 + 调整 + 三档结局</b></summary>
+
+![战斗三步定式](figures/f12-combat-steps.svg)
+
+</details>
+
+<details>
+<summary><b>情报与耳目（TZ-0028）——三档情报</b></summary>
+
+![情报三档](figures/f13-intel-tiers.svg)
+
+</details>
+
 完整图录见 [`figures/README.md`](figures/README.md)。
 
 ## 文档清单
@@ -92,24 +113,28 @@ AI 在游戏中担任唯一主持人**【天道】**，同时负责两件事：
 ├── 凡人修仙传-人生模拟器-规则补遗.md        # 局中增补唯一权威：尘缘/声名/机缘押注/卜算/突破溢出/战斗三步/情报耳目（470 行）
 ├── 规则补遗-系统篇.md                     # 可选：系统机制 + 系统专属成就（753 行）——无系统开局整册不读
 ├── 正文条目核对表.md                     # 元工具（401 行）——天道写正文/年度审计时用，玩家不必读
-├── 凡人修仙传-人生模拟器-规则总纲-补全版.md  # 主文档：总则 + 53 章 + 6 份附录（4074 行）
-├── 凡人修仙传-人生模拟器-灵界仙界篇.md       # 续册：飞升灵界 / 仙界后的规则（588 行）
+├── 凡人修仙传-人生模拟器-规则总纲-补全版.md  # 主文档：修订记录 + 总则 + 53 章 + 6 份附录（4093 行）
+├── 凡人修仙传-人生模拟器-灵界仙界篇.md       # 续册：飞升灵界 / 仙界后的规则（588 行）——飞升前禁读
 ├── 凡人修仙传-人生模拟器-规则总纲.md        # 初版：25 章，仅「纯原文模式」使用（580 行）
+├── CHANGELOG.md                         # 修订流水账：机制新增、章节增删、外置、重构（101 行）
 ├── 天道秘录.md                          # 天道专用黑箱档（103 行）——玩家勿读，已在 .gitignore
 ├── 凡人修仙传正文核对.md                  # 原作正文条目核对表（972 行）
 ├── LICENSE                             # MIT
-├── figures/                            # 10 张配图与图录索引（人类阅读用，不进 AI 上下文）
+├── figures/                            # 13 张配图与图录索引（人类阅读用，不进 AI 上下文）
 │   ├── README.md
-│   ├── f01-ladder.svg
-│   ├── f02-breakthrough.svg
-│   ├── f03-timeline.svg
-│   ├── f04-spiritroot.svg
-│   ├── f05-dice.svg
-│   ├── f06-grade.svg
-│   ├── f07-duel.svg
-│   ├── f08-fourattempts.svg
-│   ├── f09-tianji.svg
-│   └── f10-economy.svg
+│   ├── f01-ladder.svg                  #   境界·寿元·神识（三界对数刻度）
+│   ├── f02-breakthrough.svg           #   突破溢出品质制（TZ-0028）
+│   ├── f03-timeline.svg                #   开局时代时间轴
+│   ├── f04-spiritroot.svg             #   四档难度灵根概率
+│   ├── f05-dice.svg                    #   骰子严格度三档
+│   ├── f06-grade.svg                   #   品阶两套词汇 + 丹道五档熟练度
+│   ├── f07-duel.svg                    #   结丹年龄对决（实证独家）
+│   ├── f08-fourattempts.svg           #   四冲结丹锯齿（实证独家）
+│   ├── f09-tianji.svg                  #   天机痕迹累积（实证独家）
+│   ├── f10-economy.svg                 #   各境界年开销阶梯
+│   ├── f11-luck-bet.svg                #   机缘押注 3×5 矩阵（TZ-0028）
+│   ├── f12-combat-steps.svg           #   战斗三步定式 + 档位表（TZ-0028）
+│   └── f13-intel-tiers.svg            #   情报三档 + 递减 + 反情报（TZ-0028）
 ├── .dsh/skills/                        # DSH 技能套件（10 个）——开局入口
 │   ├── xiuzhen-gm/                     #   主持必读：投骰、判定、面板、公证、结算、输出格式、九重锁
 │   ├── xianxia-voice/                  #   叙事笔法唯一出口：基调 8 条 + 200 词禁用词表 + 场景模板 4 个
@@ -117,7 +142,7 @@ AI 在游戏中担任唯一主持人**【天道】**，同时负责两件事：
 │   ├── xianxia-world/                  #   地理、势力、七派六宗、固定大事件、天机楼
 │   ├── xianxia-chars/                  #   创角、出身、灵根权重、系统池、人物卡
 │   ├── xianxia-economy/                #   物价、年收入、炼丹炼器、悬赏拍卖
-│   ├── xiuzhen-changqi/                #   世界时钟、存档续玩、名册老化、卷末小结
+│   ├── xiuzhen-changqi/                #   世界时钟、存档续玩、名册老化、卷末小结、灵界解锁切换
 │   ├── xiuzhen-npc/                    #   人名/道号/性格/动机/地名/洞府/悬赏生成器
 │   ├── xiuzhen-audit/                  #   判定审计：查矛盾、查放水
 │   └── find-skill/                     #   技能管理：查找、比对、安装、诊断

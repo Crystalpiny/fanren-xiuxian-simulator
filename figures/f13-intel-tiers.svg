@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 580" width="1100" role="img">
+<title>情报与耳目（TZ-0028）</title>
+<desc>三档情报：传闻 / 打听 / 天机。情报不分成败，只分层——核心线索永不投骰。</desc>
+<style>
+text{font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif}
+.t{font-size:17px;font-weight:600;fill:#2C2C2A}
+.s{font-size:12px;fill:#5F5E5A}
+.n{font-size:13px;font-weight:600;fill:#2C2C2A}
+.big{font-size:15px;font-weight:600;fill:#2C2C2A}
+.hint{font-size:11px;fill:#5F5E5A}
+.lbl{font-size:12px;fill:#5F5E5A}
+.val{font-size:13px;fill:#2C2C2A}
+</style>
+
+<text class="t" x="30" y="32">情报与耳目（TZ-0028 起严格执行）</text>
+<text class="s" x="30" y="54">情报不分成败，只分层——核心线索永不投骰（GUMSHOE 原则）。玩家永远拿得到推进剧情的方向，投骰决定的是精度和代价。</text>
+
+<!-- 三档列 -->
+<rect x="200" y="80" width="265" height="280" fill="#EDECE7"/>
+<rect x="475" y="80" width="265" height="280" fill="#E4F1D8"/>
+<rect x="750" y="80" width="283" height="280" fill="#FBE7C0"/>
+
+<!-- 档位标题 -->
+<text class="big" x="332" y="108" text-anchor="middle">传闻</text>
+<text class="hint" x="332" y="126" text-anchor="middle">坊间闲谈、耳目递话</text>
+<text class="big" x="607" y="108" text-anchor="middle">打听</text>
+<text class="hint" x="607" y="126" text-anchor="middle">主动走访、灵石开路</text>
+<text class="big" x="891" y="108" text-anchor="middle">天机</text>
+<text class="hint" x="891" y="126" text-anchor="middle">天机楼（不卖答案，卖方向）</text>
+
+<!-- 内容 -->
+<text class="lbl" x="215" y="162">可信度</text>
+<text class="val" x="310" y="162">30 ~ 50%</text>
+<text class="lbl" x="215" y="190">耗时</text>
+<text class="val" x="310" y="190">1 ~ 3 月（追平时代）</text>
+<text class="lbl" x="215" y="218">花费</text>
+<text class="val" x="310" y="218">免费</text>
+<text class="lbl" x="215" y="246">附带代价</text>
+<text class="val" x="310" y="246">无</text>
+<text class="lbl" x="215" y="274">信息粒度</text>
+<text class="val" x="310" y="274">一条模糊指向</text>
+<text class="lbl" x="215" y="302">方向正确率</text>
+<text class="val" x="310" y="302">**一定对**（不投骰）</text>
+<text class="lbl" x="215" y="330">典型用途</text>
+<text class="val" x="310" y="330">起疑、起意、找到方向</text>
+
+<text class="lbl" x="490" y="162">可信度</text>
+<text class="val" x="585" y="162">70 ~ 90%</text>
+<text class="lbl" x="490" y="190">耗时</text>
+<text class="val" x="585" y="190">3 ~ 15 日</text>
+<text class="lbl" x="490" y="218">花费</text>
+<text class="val" x="585" y="218">50 灵石</text>
+<text class="lbl" x="490" y="246">附带代价</text>
+<text class="val" x="585" y="246">声名 +1、欠人情</text>
+<text class="lbl" x="490" y="274">信息粒度</text>
+<text class="val" x="585" y="274">3 点情报（人物/时间/地点）</text>
+<text class="lbl" x="490" y="302">可加锁</text>
+<text class="val" x="585" y="302">花双倍锁定一项</text>
+<text class="lbl" x="490" y="330">典型用途</text>
+<text class="val" x="585" y="330">定计、布局、追凶</text>
+
+<text class="lbl" x="765" y="162">可信度</text>
+<text class="val" x="860" y="162">95%+</text>
+<text class="lbl" x="765" y="190">耗时</text>
+<text class="val" x="860" y="190">即时</text>
+<text class="lbl" x="765" y="218">花费</text>
+<text class="val" x="860" y="218">5000 灵石 或 因果点 1</text>
+<text class="lbl" x="765" y="246">附带代价</text>
+<text class="val" x="860" y="246">声名 +3、因果 +1、心魔骰、天劫加权</text>
+<text class="lbl" x="765" y="274">信息粒度</text>
+<text class="val" x="860" y="274">精确到人、时、地</text>
+<text class="lbl" x="765" y="302">使用限制</text>
+<text class="val" x="860" y="302">不卖答案，只卖方向</text>
+<text class="lbl" x="765" y="330">典型用途</text>
+<text class="val" x="860" y="330">破局、避祸、必杀一击</text>
+
+<!-- 分隔 -->
+<line x1="200" y1="380" x2="1033" y2="380" stroke="#D3D1C7" stroke-width="0.5"/>
+
+<!-- 三类行动 -->
+<text class="n" x="200" y="406">三类情报行动</text>
+<g class="s">
+<text x="200" y="428">【打听】主动走访、问人、花灵石。对应"打听"档。3 点情报（人物 / 时间 / 地点）</text>
+<text x="200" y="448">【探查】实地勘查、跟踪、翻找。留下痕迹的风险 —— 声名 ≥15 会被坊市盯梢</text>
+<text x="200" y="468">【验货】法宝、丹药、功法的真伪与品阶。判定用"打听"档，可验出伏笔</text>
+</g>
+
+<line x1="200" y1="486" x2="1033" y2="486" stroke="#D3D1C7" stroke-width="0.5"/>
+
+<!-- 递减 / 耳目 / 反情报 -->
+<text class="n" x="200" y="512">递减 · 耳目 · 反情报</text>
+<g class="s">
+<text x="200" y="534">递减：同一目标第二次打听 = "道听途说"（可信度再打七折），第三次 = "坊间已无人再谈"（无新线索）</text>
+<text x="200" y="554">耳目：每月 1 点传闻。声名 ≥10 耳目自来投。尘缘 ≥8 耳目可被收买背叛。耳目死亡 → 尘缘 −1</text>
+<text x="200" y="574">反情报：敛息类（遮天诀、小衍诀）令打听难度 +50%；化名易容可换身份；声名 ≥15 会被坊市盯梢</text>
+</g>
+</svg>

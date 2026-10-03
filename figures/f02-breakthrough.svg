@@ -1,64 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 470" width="1100" role="img">
-<title>五大关口突破成功率</title>
-<desc>炼气至化神五大关口的基础成功率，以及叠加额外项后的理论上限。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 580" width="1100" role="img">
+<title>突破溢出品质制（TZ-0028）</title>
+<desc>取消 95% 封顶与 +60% 帽，超出 100% 的部分转化为突破品质。三档品质：下品／中品／上品，另有减益项把难度拉回。</desc>
 <style>
 text{font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif}
-.t{font-size:15px;font-weight:500;fill:#2C2C2A}
+.t{font-size:17px;font-weight:600;fill:#2C2C2A}
 .s{font-size:12px;fill:#5F5E5A}
 .n{font-size:13px;fill:#2C2C2A}
 .v{font-size:12px;fill:#FFFFFF}
+.vs{font-size:11px;fill:#2C2C2A}
+.zone{font-size:13px;font-weight:600;fill:#2C2C2A}
+.hint{font-size:11px;fill:#5F5E5A}
 </style>
-<text class="t" x="30" y="32">突破成功率悬崖</text>
-<text class="s" x="30" y="52">实心＝基础成功率　虚线框＝叠加额外项后的理论上限（额外项合计最多 +60%，总成功率封顶 95%、下限 5%）</text>
 
-<line x1="200" y1="72" x2="200" y2="392" stroke="#D3D1C7" stroke-width="0.5"/>
-<g class="s" font-size="11" fill="#888780">
-<text x="200" y="406" text-anchor="middle">0</text>
-<text x="340" y="406" text-anchor="middle">20%</text>
-<text x="480" y="406" text-anchor="middle">40%</text>
-<text x="620" y="406" text-anchor="middle">60%</text>
-<text x="760" y="406" text-anchor="middle">80%</text>
-<text x="900" y="406" text-anchor="middle">95%</text>
+<text class="t" x="30" y="32">突破溢出品质制（TZ-0028 起严格执行）</text>
+<text class="s" x="30" y="54">取消 95% 封顶与 +60% 帽——超出 100% 的部分不再被浪费，而是转化为突破品质。低于 100% 才投骰。</text>
+
+<!-- 四个品质区 -->
+<rect x="200" y="80" width="278" height="330" fill="#EDECE7"/>
+<rect x="478" y="80" width="139" height="330" fill="#E4F1D8"/>
+<rect x="617" y="80" width="139" height="330" fill="#FBE7C0"/>
+<rect x="756" y="80" width="277" height="330" fill="#F2C879"/>
+
+<text class="zone" x="339" y="102" text-anchor="middle">投骰区</text>
+<text class="hint" x="339" y="118" text-anchor="middle">&lt; 100%　掷 D100 决定成败</text>
+<text class="zone" x="547" y="102" text-anchor="middle">必成·下品</text>
+<text class="hint" x="547" y="118" text-anchor="middle">100 ~ 149%</text>
+<text class="zone" x="686" y="102" text-anchor="middle">必成·中品</text>
+<text class="hint" x="686" y="118" text-anchor="middle">150 ~ 199%　小境界 +1</text>
+<text class="zone" x="894" y="102" text-anchor="middle">必成·上品</text>
+<text class="hint" x="894" y="118" text-anchor="middle">≥ 200%　道基凝实，后续突破 +5%</text>
+
+<!-- 轴 -->
+<line x1="200" y1="128" x2="1033" y2="128" stroke="#888780" stroke-width="1"/>
+<g class="hint" text-anchor="middle">
+<text x="200" y="428">0</text>
+<text x="339" y="428">50%</text>
+<text x="478" y="428">100%</text>
+<text x="547" y="428">125%</text>
+<text x="617" y="428">150%</text>
+<text x="756" y="428">200%</text>
+<text x="894" y="428">250%</text>
+<text x="1033" y="428">300%</text>
 </g>
-<line x1="340" y1="72" x2="340" y2="392" stroke="#D3D1C7" stroke-width="0.5"/>
-<line x1="480" y1="72" x2="480" y2="392" stroke="#D3D1C7" stroke-width="0.5"/>
-<line x1="620" y1="72" x2="620" y2="392" stroke="#D3D1C7" stroke-width="0.5"/>
-<line x1="760" y1="72" x2="760" y2="392" stroke="#D3D1C7" stroke-width="0.5"/>
-<line x1="900" y1="72" x2="900" y2="392" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="200" y1="412" x2="1033" y2="412" stroke="#888780" stroke-width="1"/>
 
-<text class="n" x="186" y="98" text-anchor="end">炼气层</text>
-<rect x="200" y="84" width="350" height="28" rx="4" fill="#639922"/>
-<text class="v" x="375" y="98" text-anchor="middle">50%</text>
-<rect x="200" y="84" width="665" height="28" rx="4" fill="none" stroke="#3B6D11" stroke-width="1" stroke-dasharray="4 3"/>
-<text class="s" x="880" y="98">＋根骨×3% ＋灵根速度修正（天 +50 ／ 五 −40）</text>
+<!-- 示例条：南宫仆射筑基 -->
+<text class="n" x="186" y="162" text-anchor="end">筑基 · 不押</text>
+<rect x="200" y="148" width="283" height="26" rx="4" fill="#639922"/>
+<text class="v" x="342" y="161" text-anchor="middle">基础 20% ＋水土双灵根 +20% ＋上品筑基丹 +45% ＋悟性 ＝102%</text>
 
-<text class="n" x="186" y="146" text-anchor="end">筑基</text>
-<rect x="200" y="132" width="140" height="28" rx="4" fill="#EF9F27"/>
-<text class="v" x="270" y="146" text-anchor="middle">20%</text>
-<rect x="200" y="132" width="560" height="28" rx="4" fill="none" stroke="#854F0B" stroke-width="1" stroke-dasharray="4 3"/>
-<text class="s" x="775" y="146">＋灵根修正（天 +50 ／ 五 −30）　硬条件：炼气十一层以上</text>
+<text class="n" x="186" y="212" text-anchor="end">筑基 · 顺档孤注</text>
+<rect x="200" y="198" width="450" height="26" rx="4" fill="#B8860B"/>
+<text class="v" x="425" y="211" text-anchor="middle">102% ＋ 机缘押注（顺 7~8 · 孤注 ×4.2）＋32% ＝162%</text>
 
-<text class="n" x="186" y="194" text-anchor="end">结丹</text>
-<rect x="200" y="180" width="70" height="28" rx="4" fill="#D85A30"/>
-<text class="v" x="235" y="194" text-anchor="middle">10%</text>
-<rect x="200" y="180" width="490" height="28" rx="4" fill="none" stroke="#993C1D" stroke-width="1" stroke-dasharray="4 3"/>
-<text class="s" x="705" y="194">无灵根修正　失败倒退一个小境界</text>
+<text class="n" x="186" y="262" text-anchor="end">筑基 · 大顺孤注</text>
+<rect x="200" y="248" width="569" height="26" rx="4" fill="#8B4513"/>
+<text class="v" x="485" y="261" text-anchor="middle">102% ＋ 大顺 9~10 孤注 ＋60% ＋ 机缘历史累积 ＝205%</text>
 
-<text class="n" x="186" y="242" text-anchor="end">元婴</text>
-<rect x="200" y="228" width="21" height="28" rx="4" fill="#E24B4A"/>
-<text class="v" x="216" y="242" text-anchor="middle" font-size="11">3%</text>
-<rect x="200" y="228" width="441" height="28" rx="4" fill="none" stroke="#A32D2D" stroke-width="1" stroke-dasharray="4 3"/>
-<text class="s" x="656" y="242">＋三九雷劫（低于 30 形神俱灭）</text>
+<!-- 五大关口基准 -->
+<text class="n" x="186" y="320" text-anchor="end">五关基准</text>
+<g class="vs">
+<circle cx="200" cy="316" r="4" fill="#639922"/><text x="210" y="320">炼气层 50%</text>
+<circle cx="285" cy="316" r="4" fill="#EF9F27"/><text x="295" y="320">筑基 20%</text>
+<circle cx="375" cy="316" r="4" fill="#D85A30"/><text x="385" y="320">结丹 10%</text>
+<circle cx="465" cy="316" r="4" fill="#E24B4A"/><text x="475" y="320">元婴 3%</text>
+<circle cx="555" cy="316" r="4" fill="#A32D2D"/><text x="565" y="320">化神 1%</text>
+</g>
+<text class="hint" x="200" y="348">基准越低，越靠机缘押注、丹药、阵法、悟性去溢出。基础成功率不占任何帽子。</text>
 
-<text class="n" x="186" y="290" text-anchor="end">化神</text>
-<rect x="200" y="276" width="7" height="28" rx="2" fill="#A32D2D"/>
-<rect x="200" y="276" width="427" height="28" rx="4" fill="none" stroke="#A32D2D" stroke-width="1" stroke-dasharray="4 3"/>
-<text class="s" x="215" y="290">1%</text>
-<text class="s" x="642" y="290">＋六九雷劫（低于 20 身死道消）　人界只能停在化神初期巅峰</text>
+<!-- 品质效果 -->
+<text class="hint" x="200" y="382">下品：成功但无额外收益　｜　中品：小境界 +1 或永久属性 +1　｜　上品：道基凝实（后续突破 +5%）或异象（声名 +3）</text>
 
-<line x1="200" y1="330" x2="900" y2="330" stroke="#D3D1C7" stroke-width="0.5"/>
-<text class="s" x="200" y="352">额外项只含悟性、丹药、阵法、机缘四项，从高到低计入；基础成功率与灵根修正不占这顶帽子</text>
-<text class="s" x="200" y="372">筑基丹按品级：下品 +15%　中品 +25%　上品 +35%　极品 +45%，只算最好的一枚</text>
-<text class="s" x="200" y="392">硬条件不足一律不投骰，也不吃 5% 下限</text>
-<text class="s" x="30" y="440">注：元婴、化神的天劫修正单独计算，不占突破额外帽，渡劫失败必死</text>
+<!-- 分隔 -->
+<line x1="200" y1="442" x2="1033" y2="442" stroke="#D3D1C7" stroke-width="0.5"/>
+
+<!-- 减益项 -->
+<text class="n" x="200" y="464">减益项（把难度拉回 100% 以下，才能触发"投骰"）</text>
+<g class="s">
+<text x="200" y="486">伤势未愈 −5 ~ −15</text>
+<text x="380" y="486">道基受损 −10 ~ −30</text>
+<text x="560" y="486">心魔 −10</text>
+<text x="720" y="486">寿元将尽 −20</text>
+<text x="880" y="486">强行冲关 −25</text>
+<text x="200" y="506">走火入魔功法 −15</text>
+</g>
+
+<line x1="200" y1="522" x2="1033" y2="522" stroke="#D3D1C7" stroke-width="0.5"/>
+<text class="s" x="30" y="546">注：元婴、化神的天劫单独投骰（三九雷劫 / 六九雷劫），不占突破率。天劫失败必死，与品质无关。</text>
+<text class="s" x="30" y="566">对玩家明示的是"档位"（面板显示机缘三档刻度），不是具体数值。押注档位明，机缘骰消耗暗。</text>
 </svg>
