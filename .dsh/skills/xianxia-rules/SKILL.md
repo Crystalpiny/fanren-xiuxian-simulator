@@ -81,4 +81,4 @@ description: 《凡人修仙传·人生模拟器》四份规则文档的总入�
 
 ## 三、与其它技能的边界
 
-本技能只管**去哪查**。怎么投骰、怎么结算看 `xiuzhen-gm`；世界时钟与名册看 `xiuzhen-changqi`；生成人名地名看 `xiuzhen-npc`；经济与制造看 `xiuzhen-economy`；笔法看 `xianxia-narrator`。
+本技能只管**去哪查**。怎么投骰、怎么结算看 `xiuzhen-gm`；世界时钟与名册看 `xiuzhen-changqi`；生成人名地名看 `xiuzhen-npc`；经济与制造看 `xianxia-economy`；笔法看 `xianxia-voice`。
