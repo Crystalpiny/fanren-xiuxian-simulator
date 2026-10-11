@@ -28,6 +28,7 @@ saves/
 # ---------- 三、日志与运行产物 ----------
 *.log
 *.jsonl
+tools/dice-log.lock
 
 # ---------- 四、DSH / Cursor 运行时（技能目录必须保留！）----------
 # 注意：.dsh/skills/** 与 .cursor/skills/** 是本项目内容，已入库，
