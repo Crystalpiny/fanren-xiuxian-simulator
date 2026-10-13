@@ -23,6 +23,7 @@
 | `find-skill` | 要找、装、盘点技能时 |
 
 **路由硬规则**：
+- **`.agents/skills/` 注册壳**：pi 宿主只扫 `.pi/skills/`／`.agents/skills/`／用户技能目录，故 15 个技能在 `.agents/skills/` 下各有一个**薄包装**（name/description 照抄，供自动触发与 `/skill:name`）。**正文一律以 `.dsh/skills/` 为准**——改正文只改 `.dsh` 那份，壳不同步正文；description 变更时同步壳的前言行。
 - **骰值一律出自 `tools/dice.py`**（OS 熵池 CSPRNG＋拒绝采样＋哈希链审计日志），模型不得自拟骰值、不得口算「随机」——**自拟骰值＝伪造公证，红牌起步**；【审计】时跑 `python tools/dice.py verify` 校验哈希链。
 - **`xianxia-voice`（要修饰）与 `shuorenhua`（删修饰）用法相反**，永不同时作用于同一段。
 - 输出**叙事段落** → 加载 `xianxia-voice`；输出**文档/报告/规则/清单** → 不加载 `xianxia-voice`。
